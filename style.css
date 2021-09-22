@@ -1,0 +1,55 @@
+*{
+  margin: 0 auto;
+  padding: 10px;
+}
+body{
+  background-color: yellowgreen;
+}
+header{
+  font-family: JetBrains Mono;
+  text-align: center;
+  color: blueviolet;
+  font-size: 55px;
+  letter-spacing: .3em;
+}
+h1:after{
+  display:block;
+  margin: 0 auto;
+  content:"";
+  width: 120px;
+  height: 6px;
+  background-color: blueviolet;
+}
+section{
+  padding: 20px;
+  font-family: JetBrains Mono;
+  background-color: gainsboro;
+  color: black;
+  font-weight: bolder;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+input{
+  background-color: darkkhaki;
+  border-radius: 5px;
+  color: black;
+  font-weight: bolder;
+}
+input:hover{
+  transition: .5s;
+  background-color: palevioletred;
+}
+footer{
+  padding-top: 20px;
+  text-align: center;
+  font-family: JetBrains Mono;
+  color: blueviolet;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+select{
+  width: 220px;
+  margin-bottom: 20px;
+}
